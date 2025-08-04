@@ -81,6 +81,8 @@ Object-Oriented Design – Separation of logic and UI
 ## 👨‍💻 Author
 Mohammed Ramshad T S
 BTech in Computer Science, College of Engineering Cherthala
+
 📧 mohammedramshad246@gmail.com
+
 🌐 GitHub https://github.com/Dadeathmag
     
