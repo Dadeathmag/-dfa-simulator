@@ -22,12 +22,19 @@ A graphical simulator for Deterministic Finite Automata (DFA), using Java Swing 
 
 java/
 ├── DFASimulator.java # Main class (starts the GUI)
+
 ├── GUI/
+
 │ ├── DFAPanel.java # Canvas component for visual state rendering (AI-aided)
+
 │ └── InitDialog.java # Dialog for adding states and transitions
+
 └── Model/
+
   ├── DFA.java # Core logic for DFA 
+  
   ├── Transition.java
+  
   └── State.java
 
 ---
