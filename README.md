@@ -49,7 +49,7 @@ java DFASimulator
 -Set DFASimulator.java as the main class.
 -Run it.
 
-###⚙️ Built-In Example: MOD 3 DFA
+##⚙️ Built-In Example: MOD 3 DFA
 
 The file DFA.java includes a method:
 public void initialize(int x);
@@ -64,7 +64,7 @@ Input: Binary (0 or 1)
 Logic:  -Tracks modulo 3 of the binary string
         -Accepts strings ending in state q0
 
-###🛠 Technologies Used
+##🛠 Technologies Used
 
 Java – Programming Language
 Swing – User interface and event handling
@@ -72,7 +72,7 @@ AWT – Canvas graphics (AI-assisted)
 Threads – Simulated animation with delays
 Object-Oriented Design – Separation of logic and UI
 
-###👨‍💻 Author
+##👨‍💻 Author
 Mohammed Ramshad T S
 BTech in Computer Science, College of Engineering Cherthala
 📧 mohammedramshad246@gmail.com
