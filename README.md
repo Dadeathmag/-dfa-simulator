@@ -31,11 +31,11 @@ java/
 
 └── Model/
 
-  ├── DFA.java # Core logic for DFA 
+│ ├── DFA.java # Core logic for DFA 
   
-  ├── Transition.java
+│  ├── Transition.java
   
-  └── State.java
+.  └── State.java
 
 ---
 
