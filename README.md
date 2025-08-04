@@ -80,15 +80,15 @@ Logic:  -Tracks modulo 3 of the binary string
 
 ## 🛠 Technologies Used
 
-Java – Programming Language
+-Java – Programming Language
 
-Swing – User interface and event handling
+-Swing – User interface and event handling
 
-AWT – Canvas graphics (AI-assisted)
+-AWT – Canvas graphics (AI-assisted)
 
-Threads – Simulated animation with delays
+-Threads – Simulated animation with delays
 
-Object-Oriented Design – Separation of logic and UI
+-Object-Oriented Design – Separation of logic and UI
 
 ---
 
