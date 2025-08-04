@@ -21,6 +21,7 @@ A graphical simulator for Deterministic Finite Automata (DFA), using Java Swing 
 ## 📁 Project Structure
 
 java/
+
 ├── DFASimulator.java # Main class (starts the GUI)
 
 ├── GUI/
