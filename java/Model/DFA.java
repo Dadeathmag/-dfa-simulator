@@ -54,12 +54,15 @@ public class DFA {
     public State getStartState() { return startState; }
     public Set<State> getAcceptStates() { return acceptStates; }
 
-    public void setStartState(State s) {
-        if (startState != null) startState.setStart(false);
-        startState = s;
-        if (s != null) s.setStart(true);
+    public void setStartState(State s, boolean isStart) {
+        if (startState != null) startState.setStart(false); 
+        if (isStart) {
+            startState = s;
+            if (s != null) s.setStart(true); 
+        } else {
+            startState = null; 
+        }
     }
-
     public void setAcceptState(State s, boolean isAccept) {
         s.setAccept(isAccept);
         if (isAccept) acceptStates.add(s);
