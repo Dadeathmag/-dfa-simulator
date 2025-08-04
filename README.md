@@ -49,6 +49,8 @@ java DFASimulator
 -Set DFASimulator.java as the main class.
 -Run it.
 
+---
+
 ##⚙️ Built-In Example: MOD 3 DFA
 
 The file DFA.java includes a method:
@@ -64,6 +66,8 @@ Input: Binary (0 or 1)
 Logic:  -Tracks modulo 3 of the binary string
         -Accepts strings ending in state q0
 
+---
+
 ##🛠 Technologies Used
 
 Java – Programming Language
@@ -71,6 +75,8 @@ Swing – User interface and event handling
 AWT – Canvas graphics (AI-assisted)
 Threads – Simulated animation with delays
 Object-Oriented Design – Separation of logic and UI
+
+---
 
 ##👨‍💻 Author
 Mohammed Ramshad T S
