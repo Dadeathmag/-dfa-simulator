@@ -54,7 +54,9 @@ java DFASimulator
 ### Using IDE
 
 -Import or open the folder in your Java IDE.
+
 -Set DFASimulator.java as the main class.
+
 -Run it.
 
 ---
@@ -79,15 +81,20 @@ Logic:  -Tracks modulo 3 of the binary string
 ## 🛠 Technologies Used
 
 Java – Programming Language
+
 Swing – User interface and event handling
+
 AWT – Canvas graphics (AI-assisted)
+
 Threads – Simulated animation with delays
+
 Object-Oriented Design – Separation of logic and UI
 
 ---
 
 ## 👨‍💻 Author
 Mohammed Ramshad T S
+
 BTech in Computer Science, College of Engineering Cherthala
 
 📧 mohammedramshad246@gmail.com
