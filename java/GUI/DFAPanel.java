@@ -11,7 +11,6 @@ import java.util.*;
 
 public class DFAPanel extends JPanel {
     private DFA dfa;
-    private State selectedState = null;
     private State dragState = null;
     private int dragOffsetX, dragOffsetY;
     private State transitionFrom = null;
@@ -107,9 +106,9 @@ public class DFAPanel extends JPanel {
     private void showStatePopup(State s, int x, int y) {
         JPopupMenu menu = new JPopupMenu();
         
-        JMenuItem setStart = new JMenuItem("Set as Start State");
+        JMenuItem setStart = new JMenuItem(s.isStart() ? "Unset Start State" : "Set as Start State");
         setStart.addActionListener(e -> {
-            dfa.setStartState(s);
+            dfa.setStartState(s,!s.isStart());
             repaint();
         });
         menu.add(setStart);
@@ -124,6 +123,7 @@ public class DFAPanel extends JPanel {
         JMenuItem remove = new JMenuItem("Remove State");
         remove.addActionListener(e -> {
             dfa.removeState(s);
+            stateIdCounter--;
             repaint();
         });
         menu.add(remove);
