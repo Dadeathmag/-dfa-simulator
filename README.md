@@ -10,8 +10,11 @@ A graphical simulator for Deterministic Finite Automata (DFA), using Java Swing 
 
 - Interactive DFA visualizer with a GUI
 - Add states, set start and accepting states
+- ![Screen Recording 2025-08-05 064605](https://github.com/user-attachments/assets/d47e7dd8-275b-41dd-8f68-6a2a2c7c45f1)
 - Add labeled transitions (for symbols like 0, 1)
+- ![Screen Recording 2025-08-05 065227](https://github.com/user-attachments/assets/beac8311-4da9-4816-ab92-b6bd2010a603)
 - Simulate input strings with animated traversal
+- ![Screen Recording 2025-08-05 065542](https://github.com/user-attachments/assets/9ca2cb11-3016-4f4b-bd3b-18502b57e9da)
 - Displays **Accepted** or **Rejected** output based on final state
 - Thread-safe animation using `SwingUtilities`
 - Built-in sample DFA logic for quick testing (MOD 3)
